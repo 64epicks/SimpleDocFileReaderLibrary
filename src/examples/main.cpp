@@ -15,6 +15,7 @@ int main()
 
     const std::string docName = "TestDoc.doc";
     SDRL lol(docName);
+    lol.debugMode = true;
 
     std::cout << "\nLast save: " << lol.getLastSaveTime_str() << std::endl;
 
